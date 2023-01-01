@@ -1,0 +1,93 @@
+.orta_div {
+    position: absolute;
+    width: 45%;
+    height: 500px;
+    background: #e7e7e7;
+    top: 150px;
+    opacity: 0.8;
+}
+
+#randevu_div {
+    left: 50px;
+}
+
+#ailehekimi_div {
+    right: 50px;
+}
+
+#ailehekimi_div p {
+    position: relative;
+    color: #292830;
+    font-size: 30px;
+    text-align: center;
+    top: 100px;
+}
+
+#ailehekimi_div h3 {
+    text-align: center;
+    font-size: 28px;   
+}
+
+select,
+#randevu_div input,
+button {
+    position: relative;
+    width: 450px;
+    height: 40px;
+    margin-top: 10px;
+    background: #292830;
+    color: white;
+    cursor: pointer;
+}
+
+#randevu_div form {
+    position: relative;
+    top: 50px;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: blue;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+     text-decoration: none;
+     margin-right: 25px;
+     color: blue;
+}
+
+nav a:hover{
+    border-bottom: 2px solid blue;;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: blue;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
